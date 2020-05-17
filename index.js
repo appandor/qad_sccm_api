@@ -10,7 +10,7 @@ const SimpleAPI = require('./modules/SimpleAPI')
 /* ------------------------------------------ */
 
 var reqParam = {
-  url: 'http://10.16.250.72/v_sccm_acct_de?out=rows' // &limit=2000'
+  url: 'http://10.16.251.225/v_sccm_acct_de?out=rows' // &limit=2000'
 }
 request.get(reqParam, function (error, response, payload) {      
   console.log('GET:', error)

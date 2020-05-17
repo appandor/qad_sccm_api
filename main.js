@@ -33,7 +33,7 @@ function Main() {
     console.log('CHECK CHECKS')
     if (nowHHMM > check.hhmm && check.done == false) {
       // Do the Check Action
-      console.log('DO CHECK:', check)  
+      console.log('DO THE TIME CHECK FOR', check.hhmm)  
       checkModul
       check.done = true
     }
